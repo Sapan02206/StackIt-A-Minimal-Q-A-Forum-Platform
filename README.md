@@ -20,7 +20,7 @@ Educational institutions often lack a dedicated space for structured peer-to-pee
 | Member Name      | Email                        |
 |------------------|------------------------------|
 | Sapan Desai      | sapan022006@gmail.com        |
-| [Add others here]| [Add email]                  |
+| Milind Soni| milindsoni7500@gmail.com                 |
 
 Mentor GitHub ID (invited): `kcv-odoo`
 
