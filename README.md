@@ -1,17 +1,18 @@
 # StackIt – A Minimal Q&A Forum Platform
 
-StackIt is a clean, minimal, and collaborative question-and-answer platform built as a custom Odoo module. Designed to support structured knowledge sharing, StackIt allows users to ask questions, post rich-format answers, tag topics, and engage in community-driven discussion.
+**StackIt** is a clean and minimal Q&A platform built using modern frontend technologies. Designed to support structured, peer-to-peer knowledge sharing in a community, it enables users to ask questions, give rich-format answers, upvote responses, and stay informed via a notification system — all within a fast and responsive UI.
 
 ---
 
-## 🚀 Problem Statement
+## 🎯 Problem Statement
 
-Educational institutions often lack a dedicated space for structured peer-to-peer discussion. Generic chat apps aren't ideal for threaded, searchable knowledge sharing.
+In academic or developer communities, students often need a structured space for discussion. Traditional chat tools aren't optimized for searchable, topic-focused Q&A.
 
-**StackIt** solves this by providing:
-- A lightweight, forum-style Q&A system
-- Clean tagging and content moderation
-- Notifications and answer-acceptance features
+**StackIt** provides a minimal and efficient Q&A experience — helping users:
+- Ask detailed questions using tags and formatting
+- Post helpful answers
+- Vote and accept answers
+- Get notified when relevant activity occurs
 
 ---
 
@@ -20,49 +21,34 @@ Educational institutions often lack a dedicated space for structured peer-to-pee
 | Member Name      | Email                        |
 |------------------|------------------------------|
 | Sapan Desai      | sapan022006@gmail.com        |
-| Milind Soni| milindsoni7500@gmail.com                 |
+| Milind Soni      | milindsoni7500@gmail.com     |
 
-Mentor GitHub ID (invited): `kcv-odoo`
+Mentor GitHub ID: `kcv-odoo`
 
 ---
 
 ## 🔑 Core Features
 
-- ✅ Ask Questions with Title, Description & Tags
-- ✅ Rich Text Editor (HTML formatting, lists, links)
-- ✅ Answer submission & voting
-- ✅ Accept best answer (like Stack Overflow)
-- ✅ Tagging system for topics (React, Odoo, JWT etc.)
-- ✅ Notification icon when:
-  - Someone answers your question
-  - Someone comments on your answer
-  - You're mentioned using @username
+- ✅ Ask questions with title, description & tags
+- ✅ Post answers using rich text editor
+- ✅ Voting system for answers
+- ✅ Accept the best answer
+- ✅ Notification bell icon for new activities
+- ✅ Tag filtering for organized browsing
 
 ---
 
-## 🛠️ Technologies
+## ⚙️ Tech Stack
 
-- **Odoo** (Custom Module)
-- Python
-- XML (Views, Menus, Actions)
-- HTML Editor (Rich Text Field)
-- Git for version control
+| Tech             | Usage                         |
+|------------------|-------------------------------|
+| **Vite**         | Build & development tool       |
+| **TypeScript**   | Type-safe development          |
+| **Tailwind CSS** | Utility-first styling          |
+| **Node.js**      | Dependency management (`npm`)  |
+| **React (assumed)** | Component-based UI           |
 
 ---
 
-## 📁 Module Structure
-
-```text
-stackit/
-├── __manifest__.py
-├── models/
-│   ├── question.py
-│   ├── answer.py
-│   └── tag.py
-├── views/
-│   ├── question_views.xml
-│   ├── answer_views.xml
-│   └── menu.xml
-├── security/
-│   └── ir.model.access.csv
+## 📁 Project Structure
 
